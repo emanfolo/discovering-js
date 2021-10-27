@@ -33,7 +33,7 @@ app.get('/counter', (req, res) => {
 
 app.post('/counter', (req, res) => {
   res.json(req.body)
-  counter.counter += 1 
+  counter.counter += 1
 })
 
 app.delete('/counter', (req, res) => {
